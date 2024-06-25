@@ -15,8 +15,8 @@ Your task is to set up a simple FastAPI project, create a POST endpoint, send a 
 1. **Clone the provided repository:**
 
    ```bash
-   git clone https://github.com/SkyITManagement/coding-challenges.git
-   cd fastapi_challenge
+   git clone -b FastAPI-challenge --single-branch https://github.com/SkyITManagement/coding-challenges.git
+   cd coding-challenges/fastapi_challenge
    ```
 
 2. **Set up Virtual Enviorment**
