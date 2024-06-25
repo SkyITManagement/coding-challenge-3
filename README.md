@@ -64,7 +64,7 @@ Please follow the instructions below to submit your completed coding challenge:
 
 ### Record a Video:
 
-- Record a video (less than 5 minutes) explaining how your code works. Highlight key parts of your implementation and explain your thought process.
+- Record yourself in a short less than 5 minute video explaining your FastAPI project and how you went about creating the endpoint. In the video make sure to include a demonstration that your endpoint is working correctly by sending a POST request and use the endpoint to introduce yourself so that we at GBCS can get to know you. 
 
 ### Send Your Submission:
 
