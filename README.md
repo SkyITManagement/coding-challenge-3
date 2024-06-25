@@ -48,7 +48,7 @@ Your task is to set up a simple FastAPI project, create a POST endpoint, send a 
    Open your browser and go to `http://127.0.0.1:8000`, you should see "hello world"
 
 7. **Create Endpoint in main.py and Test:**
-   Create a POST endpoint in the “main.py” to receive details about yourself, your name, what you’re studying and what some of your hobbies are. Then you can run the application and test your POST request using any API testing tool of your choice; curl, postman, etc.
+   Create a POST endpoint in the “main.py” to receive details about yourself, your name, what you’re studying and what some of your hobbies are. Then you can run the application and test your POST request using any API testing tool of your choice; curl, postman, etc. Feel free to showcase your skills with extra features but only the endpoint is required.
 
 ### File to Modify
 
