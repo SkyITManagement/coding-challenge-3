@@ -2,19 +2,13 @@
 
 ## Introduction
 
-Welcome to the coding challenge for new software engineer interns at GBCS Group! This challenge is designed to test your ability to work with React hooks within a Next.js application. You will be creating a to-do list component that demonstrates your understanding of state management and side effects in React.
+Welcome to the coding challenge for new software engineer interns at GBCS Group! This challenge is designed to test your ability to work with FastAPI, create endpoints and send POST requests.
 
 ## Coding Challenge
 
 ### Objective
 
-Create a React component that functions as a to-do list using the `useState` and `useEffect` hooks in a Next.js application.
-
-### Requirements
-
-1. **Component:** The component should allow users to add and mark tasks as completed.
-2. **useState Hook:** Use the `useState` hook to manage the state of the to-do list and individual tasks.
-3. **useEffect Hook:** Use the `useEffect` hook to log a message to the console whenever the list of tasks changes.
+Your task is to set up a simple FastAPI project, create a POST endpoint, send a POST request and then record a quick video showing a successful request and response while explaining your thought process.
 
 ### Steps to Complete the Challenge
 
