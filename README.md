@@ -22,26 +22,32 @@ Your task is to set up a simple FastAPI project, create a POST endpoint, send a 
 2. **Set up Virtual Enviorment**
    ```bash
    python -m venv venv
-   On windows: venv\Scripts\activate
-   On MacOS/Linux: source venv/bin/activate
+   ```
+   On windows:
+   ```
+   venv\Scripts\activate
+   ```
+   On MacOS/Linux:
+   ```
+   source venv/bin/activate
    ```
 
-3. **Install dependencies:**
+4. **Install dependencies:**
 
    ```bash
    pip install fastapi uvicorn
    ```
 
-4. **Run the application:**
+5. **Run the application:**
 
    ```bash
    uvicorn main:app --reload
    ```
 
-5. **Navigate to the home page:**
+6. **Navigate to the home page:**
    Open your browser and go to `http://127.0.0.1:8000`
 
-6. **Create Endpoint in main.py and Test:**
+7. **Create Endpoint in main.py and Test:**
    Create a POST endpoint in the “main.py” to receive details about yourself, your name, what you’re studying and what some of your hobbies are. Then you can run the application and test your POST request using any API testing tool of your choice; curl, postman, etc.
 
 ### File to Modify
