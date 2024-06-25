@@ -1,4 +1,4 @@
-# GBCS Frontend Coding Challenge
+# GBCS BE FastAPI Coding Challenge
 
 ## Introduction
 
@@ -15,38 +15,38 @@ Your task is to set up a simple FastAPI project, create a POST endpoint, send a 
 1. **Clone the provided repository:**
 
    ```bash
-   git clone https://github.com/joshforlenza/GBCS-CodingChallenge-Frontend.git
-   cd my-app
+   git clone https://github.com/SkyITManagement/coding-challenges.git
+   cd fastapi_challenge
    ```
 
-2. **Install dependencies:**
+2. **Set up Virtual Enviorment**
+   ```bash
+   python -m venv venv
+   On windows: venv\Scripts\activate
+   On MacOS/Linux: source venv/bin/activate
+   ```
+
+3. **Install dependencies:**
 
    ```bash
-   npm install
+   pip install fastapi uvicorn
    ```
 
-3. **Run the development server:**
+4. **Run the application:**
 
    ```bash
-   npm run dev
+   uvicorn main:app --reload
    ```
 
-4. **Navigate to the home page:**
-   Open your browser and go to `http://localhost:3000`
+5. **Navigate to the home page:**
+   Open your browser and go to `http://127.0.0.1:8000`
 
-5. **Implement the component:**
-   Open `src/app/todo-list/page.tsx` and complete the implementation of the to-do list component as described in the requirements.
-
-### Features to Implement
-
-- **Task Addition:** Users can add new tasks to the list.
-- **Task Completion:** Users can mark tasks as completed.
-- **State Management:** Use `useState` to manage the tasks and the new task input.
-- **Side Effects:** Use `useEffect` to log messages to the console whenever the tasks list changes.
+6. **Create Endpoint in main.py and Test:**
+   Create a POST endpoint in the “main.py” to receive details about yourself, your name, what you’re studying and what some of your hobbies are. Then you can run the application and test your POST request using any API testing tool of your choice; curl, postman, etc.
 
 ### File to Modify
 
-- `src/app/todo-list/page.tsx`
+- `main.py`
 
 ## Submission Details
 
