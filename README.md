@@ -15,8 +15,8 @@ Your task is to set up a simple FastAPI project, create a POST endpoint, send a 
 1. **Clone the provided repository:**
 
    ```bash
-   git clone -b FastAPI-challenge --single-branch https://github.com/SkyITManagement/coding-challenges.git
-   cd coding-challenges/fastapi_challenge
+   git clone https://github.com/SkyITManagement/coding-challenge-3.git
+   cd coding-challenge-3/fastapi_challenge
    ```
 
 2. **Set up Virtual Enviorment**
@@ -58,16 +58,12 @@ Your task is to set up a simple FastAPI project, create a POST endpoint, send a 
 
 Please follow the instructions below to submit your completed coding challenge:
 
-### Zip the Project:
-
-- Once you have completed the coding challenge, zip the entire project directory.
-
 ### Record a Video:
 
 - Record yourself in a short less than 5 minute video explaining your FastAPI project and how you went about creating the endpoint. In the video make sure to include a demonstration that your endpoint is working correctly by sending a POST request and use the endpoint to introduce yourself so that we at GBCS can get to know you. 
 
 ### Send Your Submission:
 
-- Email the .zip file of your project and the video to [hr@gbcsgroup.com](mailto:hr@gbcsgroup.com) with the subject line "GBCS Frontend Coding Challenge Submission - [Your Name]".
+- Please use this google forms link to submit your video: https://forms.gle/vUxEJ3vzAsH3qTaUA
 
 Thank you for participating in our coding challenge. We look forward to reviewing your submission!
